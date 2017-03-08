@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.brutusin</groupId>
+        <artifactId>brutusin</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <groupId>org.brutusin</groupId>
+    <artifactId>hack-vm</artifactId>
+    <packaging>jar</packaging>   
+    <version>1.0.0-SNAPSHOT</version>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>Kill signal handling in java</description>
+    <url>https://github.com/brutusin/hack-vm</url>
+    
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/brutusin/hack-vm/issues</url>
+    </issueManagement>
+    
+    <ciManagement>
+        <system>travis-ci</system>
+        <url>https://travis-ci.org/brutusin/hack-vm</url>
+    </ciManagement>
+    
+    <scm>
+        <url>https://github.com/brutusin/hack-vm</url>
+        <connection>scm:git:https://github.com/brutusin/hack-vm.git</connection>
+        <developerConnection>scm:git:https://github.com/brutusin/hack-vm.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    <properties>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+    </properties>
+</project>
