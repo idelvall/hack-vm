@@ -4,7 +4,7 @@
 This is my project #8 submission, a stack-machine code (VM code) to assembler compiler for the Hack machine.
 
 ## Support bugs and requests
-https://github.com/idelvall/hack-vmr/issues
+https://github.com/idelvall/hack-vm/issues
 
 ## Authors
 
